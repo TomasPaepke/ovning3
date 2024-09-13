@@ -10,9 +10,17 @@ body {
 h2, h3 {
     font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    padding: 1rem;
 }
-p {
+div p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}
+div ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin: 1rem;
+    padding: 1rem;
 }
 .header {
     
@@ -20,7 +28,7 @@ p {
     justify-items: center;
     height: 20vh;
     border:1px;
-    background-color: rgba(255, 255, 255, 0.596);
+    background-color: white;
     padding: 2rem;
 }
 .header-text h1 {
@@ -46,4 +54,5 @@ footer {
     background-color: white;
     text-align: center;
     padding: 3rem;
+    
 }
